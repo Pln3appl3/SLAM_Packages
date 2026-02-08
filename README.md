@@ -1,4 +1,4 @@
-SLAM packages for ros2 humble built from source on Debian Bookworm 64-bit
+SLAM packages for ros2 humble built from source on Debian Bookworm 64-bit (made for my terrain mapping rover project)
 
 Create a `slam_packages.repos`
 ```
