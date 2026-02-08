@@ -16,5 +16,5 @@ vcs import src < slam_packages.repos
 ```
 build
 ```
-colcon build --symlink-install --packages-select external
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
