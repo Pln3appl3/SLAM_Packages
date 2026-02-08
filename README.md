@@ -14,3 +14,7 @@ import this repo
 cd ~/project_name
 vcs import src < slam_packages.repos
 ```
+build
+```
+colcon build --symlink-install --packages-select external
+```
