@@ -17,7 +17,7 @@ vcs import src < slam_packages.repos
 build
 ```
 # build ros2_humble from source https://github.com/Pln3appl3/ros2_humble.git that has needed SLAM packages
-source ros2_humble/install/setup.bash
+source ~/ros2_humble/install/setup.bash
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 May give some warnings but it should be no problem
