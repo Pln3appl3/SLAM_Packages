@@ -16,5 +16,6 @@ vcs import src < slam_packages.repos
 ```
 build
 ```
+source ros2_humble/install/setup.bash
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
